@@ -1,0 +1,482 @@
+[
+  {
+    "id": 1,
+    "status": "on hold",
+    "currentJob": "Review",
+    "contentSize": 92,
+    "dueDateTime": "Oct 15, 2024 11:07 AM",
+    "customerName": "Donnie Stachini"
+  },
+  {
+    "id": 2,
+    "status": "offer",
+    "currentJob": "Service",
+    "contentSize": 73,
+    "dueDateTime": "Oct 15, 2024 11:46 PM",
+    "customerName": "Lucille Matissoff"
+  },
+  {
+    "id": 3,
+    "status": "offer",
+    "currentJob": "Return",
+    "contentSize": 97,
+    "dueDateTime": "Oct 17, 2024 10:24 AM",
+    "customerName": "Marisa Ledger"
+  },
+  {
+    "id": 4,
+    "status": "assign",
+    "currentJob": "Service",
+    "contentSize": 76,
+    "dueDateTime": "Oct 30, 2024 10:25 PM",
+    "customerName": "Adrien Halward"
+  },
+  {
+    "id": 5,
+    "status": "offer",
+    "currentJob": "Return",
+    "contentSize": 96,
+    "dueDateTime": "Oct 24, 2024 10:15 PM",
+    "customerName": "Catharina Lenton"
+  },
+  {
+    "id": 6,
+    "status": "on hold",
+    "currentJob": "Return",
+    "contentSize": 53,
+    "dueDateTime": "Oct 25, 2024 7:13 AM",
+    "customerName": "Niccolo Zannolli"
+  },
+  {
+    "id": 7,
+    "status": "on hold",
+    "currentJob": "Return",
+    "contentSize": 45,
+    "dueDateTime": "Nov 1, 2024 10:27 PM",
+    "customerName": "Rodd Beston"
+  },
+  {
+    "id": 8,
+    "status": "offer",
+    "currentJob": "Return",
+    "contentSize": 83,
+    "dueDateTime": "Oct 23, 2024 6:19 PM",
+    "customerName": "Hank Lemerie"
+  },
+  {
+    "id": 9,
+    "status": "assign",
+    "currentJob": "Review",
+    "contentSize": 29,
+    "dueDateTime": "Nov 4, 2024 1:10 AM",
+    "customerName": "Armin Johanning"
+  },
+  {
+    "id": 10,
+    "status": "on hold",
+    "currentJob": "Review",
+    "contentSize": 67,
+    "dueDateTime": "Oct 23, 2024 1:31 AM",
+    "customerName": "Tersina Vlasyuk"
+  },
+  {
+    "id": 11,
+    "status": "‭ in queue",
+    "currentJob": "Return",
+    "contentSize": 100,
+    "dueDateTime": "Nov 1, 2024 10:12 PM",
+    "customerName": "Anthe Iverson"
+  },
+  {
+    "id": 12,
+    "status": "on hold",
+    "currentJob": "Review",
+    "contentSize": 78,
+    "dueDateTime": "Oct 16, 2024 6:15 AM",
+    "customerName": "Katerine Sleite"
+  },
+  {
+    "id": 13,
+    "status": "‭ in queue",
+    "currentJob": "Service",
+    "contentSize": 93,
+    "dueDateTime": "Oct 18, 2024 11:48 AM",
+    "customerName": "Sibylle Melley"
+  },
+  {
+    "id": 14,
+    "status": "on hold",
+    "currentJob": "Service",
+    "contentSize": 85,
+    "dueDateTime": "Nov 5, 2024 12:19 AM",
+    "customerName": "Ashil Bransom"
+  },
+  {
+    "id": 15,
+    "status": "offer",
+    "currentJob": "Review",
+    "contentSize": 37,
+    "dueDateTime": "Oct 16, 2024 1:22 AM",
+    "customerName": "Beatrice Matissoff"
+  },
+  {
+    "id": 16,
+    "status": "offer",
+    "currentJob": "Review",
+    "contentSize": 14,
+    "dueDateTime": "Oct 10, 2024 7:52 AM",
+    "customerName": "Piper Codner"
+  },
+  {
+    "id": 17,
+    "status": "on hold",
+    "currentJob": "Review",
+    "contentSize": 69,
+    "dueDateTime": "Oct 20, 2024 6:37 AM",
+    "customerName": "Tate MacCafferky"
+  },
+  {
+    "id": 18,
+    "status": "on hold",
+    "currentJob": "Review",
+    "contentSize": 6,
+    "dueDateTime": "Oct 23, 2024 7:36 PM",
+    "customerName": "Cosette Masarrat"
+  },
+  {
+    "id": 19,
+    "status": "offer",
+    "currentJob": "Service",
+    "contentSize": 52,
+    "dueDateTime": "Oct 12, 2024 7:34 PM",
+    "customerName": "Joan Spellissy"
+  },
+  {
+    "id": 20,
+    "status": "offer",
+    "currentJob": "Return",
+    "contentSize": 47,
+    "dueDateTime": "Oct 13, 2024 5:51 PM",
+    "customerName": "Briant Clutten"
+  },
+  {
+    "id": 21,
+    "status": "on hold",
+    "currentJob": "Return",
+    "contentSize": 57,
+    "dueDateTime": "Oct 29, 2024 10:39 PM",
+    "customerName": "Auria Beston"
+  },
+  {
+    "id": 22,
+    "status": "offer",
+    "currentJob": "Review",
+    "contentSize": 81,
+    "dueDateTime": "Oct 9, 2024 9:27 PM",
+    "customerName": "Fabien Ledger"
+  },
+  {
+    "id": 23,
+    "status": "on hold",
+    "currentJob": "Service",
+    "contentSize": 65,
+    "dueDateTime": "Oct 23, 2024 7:25 AM",
+    "customerName": "Ulrika Tomkin"
+  },
+  {
+    "id": 24,
+    "status": "offer",
+    "currentJob": "Return",
+    "contentSize": 72,
+    "dueDateTime": "Oct 27, 2024 6:47 PM",
+    "customerName": "Itch Raffels"
+  },
+  {
+    "id": 25,
+    "status": "on hold",
+    "currentJob": "Service",
+    "contentSize": 24,
+    "dueDateTime": "Oct 30, 2024 1:25 AM",
+    "customerName": "Christoph O'Hengerty"
+  },
+  {
+    "id": 26,
+    "status": "on hold",
+    "currentJob": "Review",
+    "contentSize": 91,
+    "dueDateTime": "Oct 28, 2024 8:53 AM",
+    "customerName": "Antoine Weddeburn"
+  },
+  {
+    "id": 27,
+    "status": "offer",
+    "currentJob": "Review",
+    "contentSize": 46,
+    "dueDateTime": "Oct 11, 2024 7:03 AM",
+    "customerName": "Tom Eymer"
+  },
+  {
+    "id": 28,
+    "status": "‭ in queue",
+    "currentJob": "Review",
+    "contentSize": 25,
+    "dueDateTime": "Oct 8, 2024 3:37 PM",
+    "customerName": "Pepi Upward"
+  },
+  {
+    "id": 29,
+    "status": "offer",
+    "currentJob": "Review",
+    "contentSize": 96,
+    "dueDateTime": "Oct 29, 2024 11:22 AM",
+    "customerName": "Stuart Radleigh"
+  },
+  {
+    "id": 30,
+    "status": "assign",
+    "currentJob": "Review",
+    "contentSize": 99,
+    "dueDateTime": "Oct 17, 2024 12:16 AM",
+    "customerName": "Gun Bexley"
+  },
+  {
+    "id": 31,
+    "status": "‭ in queue",
+    "currentJob": "Service",
+    "contentSize": 95,
+    "dueDateTime": "Nov 4, 2024 2:42 AM",
+    "customerName": "Rhianon Sleite"
+  },
+  {
+    "id": 32,
+    "status": "on hold",
+    "currentJob": "Review",
+    "contentSize": 18,
+    "dueDateTime": "Oct 9, 2024 8:45 AM",
+    "customerName": "Ulick Neles"
+  },
+  {
+    "id": 33,
+    "status": "offer",
+    "currentJob": "Service",
+    "contentSize": 88,
+    "dueDateTime": "Oct 25, 2024 5:38 AM",
+    "customerName": "Renata Ovens"
+  },
+  {
+    "id": 34,
+    "status": "offer",
+    "currentJob": "Review",
+    "contentSize": 10,
+    "dueDateTime": "Nov 2, 2024 10:44 AM",
+    "customerName": "Will Anersen"
+  },
+  {
+    "id": 35,
+    "status": "on hold",
+    "currentJob": "Review",
+    "contentSize": 90,
+    "dueDateTime": "Nov 4, 2024 7:11 AM",
+    "customerName": "Jesse Ciani"
+  },
+  {
+    "id": 36,
+    "status": "assign",
+    "currentJob": "Review",
+    "contentSize": 21,
+    "dueDateTime": "Oct 30, 2024 11:53 AM",
+    "customerName": "Daniele Radleigh"
+  },
+  {
+    "id": 37,
+    "status": "‭ in queue",
+    "currentJob": "Return",
+    "contentSize": 4,
+    "dueDateTime": "Oct 15, 2024 6:33 AM",
+    "customerName": "Ruperto Eagell"
+  },
+  {
+    "id": 38,
+    "status": "on hold",
+    "currentJob": "Service",
+    "contentSize": 9,
+    "dueDateTime": "Oct 30, 2024 5:37 PM",
+    "customerName": "Scarlett Banger"
+  },
+  {
+    "id": 39,
+    "status": "offer",
+    "currentJob": "Service",
+    "contentSize": 59,
+    "dueDateTime": "Oct 20, 2024 4:32 AM",
+    "customerName": "Fawne Chavey"
+  },
+  {
+    "id": 40,
+    "status": "assign",
+    "currentJob": "Return",
+    "contentSize": 49,
+    "dueDateTime": "Oct 28, 2024 2:09 AM",
+    "customerName": "Purcell McQuarter"
+  },
+  {
+    "id": 41,
+    "status": "offer",
+    "currentJob": "Service",
+    "contentSize": 64,
+    "dueDateTime": "Oct 26, 2024 9:12 PM",
+    "customerName": "Gun Wilber"
+  },
+  {
+    "id": 42,
+    "status": "offer",
+    "currentJob": "Review",
+    "contentSize": 34,
+    "dueDateTime": "Oct 26, 2024 2:04 AM",
+    "customerName": "Andre Boyle"
+  },
+  {
+    "id": 43,
+    "status": "on hold",
+    "currentJob": "Service",
+    "contentSize": 62,
+    "dueDateTime": "Oct 9, 2024 12:11 PM",
+    "customerName": "Imogene Fissenden"
+  },
+  {
+    "id": 44,
+    "status": "assign",
+    "currentJob": "Review",
+    "contentSize": 23,
+    "dueDateTime": "Oct 26, 2024 12:30 PM",
+    "customerName": "Gilda Kentwell"
+  },
+  {
+    "id": 45,
+    "status": "offer",
+    "currentJob": "Service",
+    "contentSize": 50,
+    "dueDateTime": "Oct 8, 2024 3:42 PM",
+    "customerName": "Elisha Ludron"
+  },
+  {
+    "id": 46,
+    "status": "‭ in queue",
+    "currentJob": "Review",
+    "contentSize": 58,
+    "dueDateTime": "Oct 27, 2024 7:40 AM",
+    "customerName": "Dorian Iverson"
+  },
+  {
+    "id": 47,
+    "status": "offer",
+    "currentJob": "Review",
+    "contentSize": 25,
+    "dueDateTime": "Oct 12, 2024 4:14 PM",
+    "customerName": "Pepito Boyle"
+  },
+  {
+    "id": 48,
+    "status": "on hold",
+    "currentJob": "Return",
+    "contentSize": 9,
+    "dueDateTime": "Oct 27, 2024 4:38 PM",
+    "customerName": "Desdemona De Robertis"
+  },
+  {
+    "id": 49,
+    "status": "‭ in queue",
+    "currentJob": "Review",
+    "contentSize": 95,
+    "dueDateTime": "Oct 29, 2024 7:18 AM",
+    "customerName": "Imogene Balcon"
+  },
+  {
+    "id": 50,
+    "status": "on hold",
+    "currentJob": "Service",
+    "contentSize": 27,
+    "dueDateTime": "Nov 2, 2024 11:01 PM",
+    "customerName": "Trixy MacDowal"
+  },
+  {
+    "id": 51,
+    "status": "‭ in queue",
+    "currentJob": "Return",
+    "contentSize": 73,
+    "dueDateTime": "Oct 9, 2024 6:23 AM",
+    "customerName": "Tersina Kentwell"
+  },
+  {
+    "id": 52,
+    "status": "assign",
+    "currentJob": "Review",
+    "contentSize": 42,
+    "dueDateTime": "Oct 9, 2024 8:59 PM",
+    "customerName": "Lydie Guy"
+  },
+  {
+    "id": 53,
+    "status": "assign",
+    "currentJob": "Service",
+    "contentSize": 20,
+    "dueDateTime": "Nov 2, 2024 10:53 AM",
+    "customerName": "Charo Codner"
+  },
+  {
+    "id": 54,
+    "status": "on hold",
+    "currentJob": "Review",
+    "contentSize": 29,
+    "dueDateTime": "Oct 20, 2024 8:28 AM",
+    "customerName": "Andre Sleite"
+  },
+  {
+    "id": 55,
+    "status": "on hold",
+    "currentJob": "Service",
+    "contentSize": 2,
+    "dueDateTime": "Oct 25, 2024 5:02 AM",
+    "customerName": "Christoph Gisburn"
+  },
+  {
+    "id": 56,
+    "status": "on hold",
+    "currentJob": "Review",
+    "contentSize": 56,
+    "dueDateTime": "Oct 21, 2024 9:29 PM",
+    "customerName": "Doretta Keitley"
+  },
+  {
+    "id": 57,
+    "status": "offer",
+    "currentJob": "Service",
+    "contentSize": 15,
+    "dueDateTime": "Oct 27, 2024 4:39 AM",
+    "customerName": "Nevsa Ledger"
+  },
+  {
+    "id": 58,
+    "status": "offer",
+    "currentJob": "Service",
+    "contentSize": 26,
+    "dueDateTime": "Oct 19, 2024 10:35 AM",
+    "customerName": "Willey Boshers"
+  },
+  {
+    "id": 59,
+    "status": "on hold",
+    "currentJob": "Review",
+    "contentSize": 27,
+    "dueDateTime": "Oct 9, 2024 7:15 AM",
+    "customerName": "Dag Slides"
+  },
+  {
+    "id": 60,
+    "status": "offer",
+    "currentJob": "Service",
+    "contentSize": 75,
+    "dueDateTime": "Oct 8, 2024 7:32 PM",
+    "customerName": "Warden Wilber"
+  }
+]

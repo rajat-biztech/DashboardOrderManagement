@@ -3,6 +3,8 @@ import {
   getCoreRowModel,
   useReactTable
 } from "@tanstack/react-table";
+import { useState } from "react";
+
 import {
   TableContainer,
   StyledTable,
@@ -16,19 +18,39 @@ import {
   TableCellContent
 } from "./styles";
 import { TableProps } from "./types";
-
-export const DEFAULT_PAGE_INDEX = 0;
-export const DEFAULT_PAGE_SIZE = 10;
+import getOrdersData from "@/services/Orders";
+import { keepPreviousData, useQuery } from "@tanstack/react-query";
 
 const Table = <T extends Record<string, string | number>>({
-  data,
   columns
 }: TableProps<T>) => {
+  const [pageIndex, setPageIndex] = useState(0);
+  const [pageSize, setPageSize] = useState(10);
+
+  const { data = {} } = useQuery({
+    queryKey: ["orders", pageIndex, pageSize],
+    queryFn: () =>
+      getOrdersData({
+        pageIndex: pageIndex + 1,
+        pageSize
+      }),
+    placeholderData: keepPreviousData
+  });
+  const orders = data?.orders ?? [];
+  const pageCount = Math.ceil((data?.total ?? 0) / pageSize);
+
   const table = useReactTable({
-    data,
+    data: orders,
     columns,
     manualPagination: true,
-    getCoreRowModel: getCoreRowModel()
+    pageCount,
+    getCoreRowModel: getCoreRowModel(),
+    state: {
+      pagination: {
+        pageIndex,
+        pageSize
+      }
+    }
   });
 
   return (
@@ -75,56 +97,62 @@ const Table = <T extends Record<string, string | number>>({
 
       <PaginationContainer>
         <PaginationButton
-          onClick={() => table.setPageIndex(0)}
-          disabled={!table.getCanPreviousPage()}
+          onClick={() => setPageIndex(0)}
+          disabled={pageIndex === 0}
         >
           {"<<"}
         </PaginationButton>
         <PaginationButton
-          onClick={() => table.previousPage()}
-          disabled={!table.getCanPreviousPage()}
+          onClick={() => setPageIndex((old) => Math.max(old - 1, 0))}
+          disabled={pageIndex === 0}
         >
           {"<"}
         </PaginationButton>
         <PaginationButton
-          onClick={() => table.nextPage()}
-          disabled={!table.getCanNextPage()}
+          onClick={() =>
+            setPageIndex((old) =>
+              Math.min(old + 1, table.getPageCount() - 1)
+            )
+          }
+          disabled={pageIndex === table.getPageCount() - 1}
         >
           {">"}
         </PaginationButton>
         <PaginationButton
-          onClick={() => table.setPageIndex(table.getPageCount() - 1)}
-          disabled={!table.getCanNextPage()}
+          onClick={() => setPageIndex(table.getPageCount() - 1)}
+          disabled={pageIndex === table.getPageCount() - 1}
         >
           {">>"}
         </PaginationButton>
 
         <PageInfo>
-          Page {table.getState().pagination.pageIndex + 1} of{" "}
-          {table.getPageCount()}
+          Page {pageIndex + 1} of {pageCount}
         </PageInfo>
 
         <label>
           | Go to page:
           <PageInput
             type="number"
-            value={table.getState().pagination.pageIndex + 1}
+            value={pageIndex + 1}
             onChange={(e) => {
               const page = e.target.value
                 ? Number(e.target.value) - 1
                 : 0;
-              table.setPageIndex(page);
+              setPageIndex(page);
             }}
           />
         </label>
 
         <PageSizeSelect
-          value={table.getState().pagination.pageSize}
-          onChange={(e) => table.setPageSize(Number(e.target.value))}
+          value={pageSize}
+          onChange={(e) => {
+            setPageSize(Number(e.target.value));
+            setPageIndex(0);
+          }}
         >
-          {[10, 20, 30, 40, 50].map((pageSize) => (
-            <option key={pageSize} value={pageSize}>
-              Show {pageSize}
+          {[10, 20, 30, 40, 50].map((size) => (
+            <option key={size} value={size}>
+              Show {size}
             </option>
           ))}
         </PageSizeSelect>
