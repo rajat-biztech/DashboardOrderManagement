@@ -1,3 +1,5 @@
+import { calculateTimeLeft } from "@/utils/calculateLeftTime";
+
 export const ORDER_COLUMNS = [
   {
     accessorKey: "id",
@@ -17,7 +19,8 @@ export const ORDER_COLUMNS = [
   },
   {
     accessorKey: "dueDateTime",
-    header: () => "Time Remaining"
+    header: () => "Time Remaining",
+    cell: (info: any) => calculateTimeLeft(info.getValue()) // Use the function to calculate time left
   },
   {
     accessorKey: "status",

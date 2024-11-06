@@ -4,7 +4,7 @@
     "status": "on hold",
     "currentJob": "Review",
     "contentSize": 92,
-    "dueDateTime": "Oct 15, 2024 11:07 AM",
+    "dueDateTime": "2024-11-15T11:07:00",
     "customerName": "Donnie Stachini"
   },
   {
@@ -12,7 +12,7 @@
     "status": "offer",
     "currentJob": "Service",
     "contentSize": 73,
-    "dueDateTime": "Oct 15, 2024 11:46 PM",
+    "dueDateTime": "2024-10-15T23:46:00",
     "customerName": "Lucille Matissoff"
   },
   {
@@ -20,7 +20,7 @@
     "status": "offer",
     "currentJob": "Return",
     "contentSize": 97,
-    "dueDateTime": "Oct 17, 2024 10:24 AM",
+    "dueDateTime": "2024-10-17T10:24:00",
     "customerName": "Marisa Ledger"
   },
   {
@@ -28,7 +28,7 @@
     "status": "assign",
     "currentJob": "Service",
     "contentSize": 76,
-    "dueDateTime": "Oct 30, 2024 10:25 PM",
+    "dueDateTime": "2024-11-07T22:25:00",
     "customerName": "Adrien Halward"
   },
   {
@@ -36,7 +36,7 @@
     "status": "offer",
     "currentJob": "Return",
     "contentSize": 96,
-    "dueDateTime": "Oct 24, 2024 10:15 PM",
+    "dueDateTime": "2024-10-24T22:15:00",
     "customerName": "Catharina Lenton"
   },
   {
@@ -44,7 +44,7 @@
     "status": "on hold",
     "currentJob": "Return",
     "contentSize": 53,
-    "dueDateTime": "Oct 25, 2024 7:13 AM",
+    "dueDateTime": "2024-10-25T07:13:00",
     "customerName": "Niccolo Zannolli"
   },
   {
@@ -52,7 +52,7 @@
     "status": "on hold",
     "currentJob": "Return",
     "contentSize": 45,
-    "dueDateTime": "Nov 1, 2024 10:27 PM",
+    "dueDateTime": "2024-11-01T22:27:00",
     "customerName": "Rodd Beston"
   },
   {
@@ -60,7 +60,7 @@
     "status": "offer",
     "currentJob": "Return",
     "contentSize": 83,
-    "dueDateTime": "Oct 23, 2024 6:19 PM",
+    "dueDateTime": "2024-10-23T18:19:00",
     "customerName": "Hank Lemerie"
   },
   {
@@ -68,7 +68,7 @@
     "status": "assign",
     "currentJob": "Review",
     "contentSize": 29,
-    "dueDateTime": "Nov 4, 2024 1:10 AM",
+    "dueDateTime": "2024-11-04T01:10:00",
     "customerName": "Armin Johanning"
   },
   {
@@ -76,15 +76,15 @@
     "status": "on hold",
     "currentJob": "Review",
     "contentSize": 67,
-    "dueDateTime": "Oct 23, 2024 1:31 AM",
+    "dueDateTime": "2024-10-23T01:31:00",
     "customerName": "Tersina Vlasyuk"
   },
   {
     "id": 11,
-    "status": "‭ in queue",
+    "status": "in queue",
     "currentJob": "Return",
     "contentSize": 100,
-    "dueDateTime": "Nov 1, 2024 10:12 PM",
+    "dueDateTime": "2024-11-09T22:12:00",
     "customerName": "Anthe Iverson"
   },
   {
@@ -92,15 +92,15 @@
     "status": "on hold",
     "currentJob": "Review",
     "contentSize": 78,
-    "dueDateTime": "Oct 16, 2024 6:15 AM",
+    "dueDateTime": "2024-10-16T06:15:00",
     "customerName": "Katerine Sleite"
   },
   {
     "id": 13,
-    "status": "‭ in queue",
+    "status": "in queue",
     "currentJob": "Service",
     "contentSize": 93,
-    "dueDateTime": "Oct 18, 2024 11:48 AM",
+    "dueDateTime": "2024-10-18T11:48:00",
     "customerName": "Sibylle Melley"
   },
   {
@@ -108,7 +108,7 @@
     "status": "on hold",
     "currentJob": "Service",
     "contentSize": 85,
-    "dueDateTime": "Nov 5, 2024 12:19 AM",
+    "dueDateTime": "2024-11-05T00:19:00",
     "customerName": "Ashil Bransom"
   },
   {
@@ -116,7 +116,7 @@
     "status": "offer",
     "currentJob": "Review",
     "contentSize": 37,
-    "dueDateTime": "Oct 16, 2024 1:22 AM",
+    "dueDateTime": "2024-10-16T01:22:00",
     "customerName": "Beatrice Matissoff"
   },
   {
@@ -124,7 +124,7 @@
     "status": "offer",
     "currentJob": "Review",
     "contentSize": 14,
-    "dueDateTime": "Oct 10, 2024 7:52 AM",
+    "dueDateTime": "2024-10-10T07:52:00",
     "customerName": "Piper Codner"
   },
   {
@@ -132,7 +132,7 @@
     "status": "on hold",
     "currentJob": "Review",
     "contentSize": 69,
-    "dueDateTime": "Oct 20, 2024 6:37 AM",
+    "dueDateTime": "2024-10-20T06:37:00",
     "customerName": "Tate MacCafferky"
   },
   {
@@ -140,7 +140,7 @@
     "status": "on hold",
     "currentJob": "Review",
     "contentSize": 6,
-    "dueDateTime": "Oct 23, 2024 7:36 PM",
+    "dueDateTime": "2024-10-23T19:36:00",
     "customerName": "Cosette Masarrat"
   },
   {
@@ -148,7 +148,7 @@
     "status": "offer",
     "currentJob": "Service",
     "contentSize": 52,
-    "dueDateTime": "Oct 12, 2024 7:34 PM",
+    "dueDateTime": "2024-10-12T19:34:00",
     "customerName": "Joan Spellissy"
   },
   {
@@ -156,7 +156,7 @@
     "status": "offer",
     "currentJob": "Return",
     "contentSize": 47,
-    "dueDateTime": "Oct 13, 2024 5:51 PM",
+    "dueDateTime": "2024-11-13T17:51:00",
     "customerName": "Briant Clutten"
   },
   {
@@ -164,7 +164,7 @@
     "status": "on hold",
     "currentJob": "Return",
     "contentSize": 57,
-    "dueDateTime": "Oct 29, 2024 10:39 PM",
+    "dueDateTime": "2024-10-09T21:27:00",
     "customerName": "Auria Beston"
   },
   {
@@ -172,7 +172,7 @@
     "status": "offer",
     "currentJob": "Review",
     "contentSize": 81,
-    "dueDateTime": "Oct 9, 2024 9:27 PM",
+    "dueDateTime": "2024-10-09T21:27:00",
     "customerName": "Fabien Ledger"
   },
   {
@@ -180,7 +180,7 @@
     "status": "on hold",
     "currentJob": "Service",
     "contentSize": 65,
-    "dueDateTime": "Oct 23, 2024 7:25 AM",
+    "dueDateTime": "2024-10-23T07:25:00",
     "customerName": "Ulrika Tomkin"
   },
   {
@@ -188,7 +188,7 @@
     "status": "offer",
     "currentJob": "Return",
     "contentSize": 72,
-    "dueDateTime": "Oct 27, 2024 6:47 PM",
+    "dueDateTime": "2024-10-27T18:47:00",
     "customerName": "Itch Raffels"
   },
   {
@@ -196,7 +196,7 @@
     "status": "on hold",
     "currentJob": "Service",
     "contentSize": 24,
-    "dueDateTime": "Oct 30, 2024 1:25 AM",
+    "dueDateTime": "2024-10-30T01:25:00",
     "customerName": "Christoph O'Hengerty"
   },
   {
@@ -204,7 +204,7 @@
     "status": "on hold",
     "currentJob": "Review",
     "contentSize": 91,
-    "dueDateTime": "Oct 28, 2024 8:53 AM",
+    "dueDateTime": "2024-10-28T08:53:00",
     "customerName": "Antoine Weddeburn"
   },
   {
@@ -212,15 +212,15 @@
     "status": "offer",
     "currentJob": "Review",
     "contentSize": 46,
-    "dueDateTime": "Oct 11, 2024 7:03 AM",
+    "dueDateTime": "2024-10-11T07:03:00",
     "customerName": "Tom Eymer"
   },
   {
     "id": 28,
-    "status": "‭ in queue",
+    "status": "in queue",
     "currentJob": "Review",
     "contentSize": 25,
-    "dueDateTime": "Oct 8, 2024 3:37 PM",
+    "dueDateTime": "2024-10-08T15:37:00",
     "customerName": "Pepi Upward"
   },
   {
@@ -228,7 +228,7 @@
     "status": "offer",
     "currentJob": "Review",
     "contentSize": 96,
-    "dueDateTime": "Oct 29, 2024 11:22 AM",
+    "dueDateTime": "2024-10-29T11:22:00",
     "customerName": "Stuart Radleigh"
   },
   {
@@ -236,7 +236,7 @@
     "status": "assign",
     "currentJob": "Review",
     "contentSize": 99,
-    "dueDateTime": "Oct 17, 2024 12:16 AM",
+    "dueDateTime": "2024-10-17T00:16:00",
     "customerName": "Gun Bexley"
   },
   {
@@ -244,7 +244,7 @@
     "status": "‭ in queue",
     "currentJob": "Service",
     "contentSize": 95,
-    "dueDateTime": "Nov 4, 2024 2:42 AM",
+    "dueDateTime": "2024-10-17T00:16:00",
     "customerName": "Rhianon Sleite"
   },
   {
@@ -252,7 +252,7 @@
     "status": "on hold",
     "currentJob": "Review",
     "contentSize": 18,
-    "dueDateTime": "Oct 9, 2024 8:45 AM",
+    "dueDateTime": "2024-10-17T00:16:00",
     "customerName": "Ulick Neles"
   },
   {
@@ -260,7 +260,7 @@
     "status": "offer",
     "currentJob": "Service",
     "contentSize": 88,
-    "dueDateTime": "Oct 25, 2024 5:38 AM",
+    "dueDateTime": "2024-10-17T00:16:00",
     "customerName": "Renata Ovens"
   },
   {
@@ -268,7 +268,7 @@
     "status": "offer",
     "currentJob": "Review",
     "contentSize": 10,
-    "dueDateTime": "Nov 2, 2024 10:44 AM",
+    "dueDateTime": "2024-11-08T22:25:00",
     "customerName": "Will Anersen"
   },
   {
@@ -276,7 +276,7 @@
     "status": "on hold",
     "currentJob": "Review",
     "contentSize": 90,
-    "dueDateTime": "Nov 4, 2024 7:11 AM",
+    "dueDateTime": "2024-11-07T22:25:00",
     "customerName": "Jesse Ciani"
   },
   {
@@ -284,7 +284,7 @@
     "status": "assign",
     "currentJob": "Review",
     "contentSize": 21,
-    "dueDateTime": "Oct 30, 2024 11:53 AM",
+    "dueDateTime": "2024-11-08T22:25:00",
     "customerName": "Daniele Radleigh"
   },
   {
@@ -292,7 +292,7 @@
     "status": "‭ in queue",
     "currentJob": "Return",
     "contentSize": 4,
-    "dueDateTime": "Oct 15, 2024 6:33 AM",
+    "dueDateTime": "2024-10-17T00:16:00",
     "customerName": "Ruperto Eagell"
   },
   {
@@ -300,7 +300,7 @@
     "status": "on hold",
     "currentJob": "Service",
     "contentSize": 9,
-    "dueDateTime": "Oct 30, 2024 5:37 PM",
+    "dueDateTime": "2024-10-08T22:25:00",
     "customerName": "Scarlett Banger"
   },
   {
@@ -308,7 +308,7 @@
     "status": "offer",
     "currentJob": "Service",
     "contentSize": 59,
-    "dueDateTime": "Oct 20, 2024 4:32 AM",
+    "dueDateTime": "2024-10-08T22:25:00",
     "customerName": "Fawne Chavey"
   },
   {
@@ -316,7 +316,7 @@
     "status": "assign",
     "currentJob": "Return",
     "contentSize": 49,
-    "dueDateTime": "Oct 28, 2024 2:09 AM",
+    "dueDateTime": "2024-10-17T00:16:00",
     "customerName": "Purcell McQuarter"
   },
   {
@@ -324,7 +324,7 @@
     "status": "offer",
     "currentJob": "Service",
     "contentSize": 64,
-    "dueDateTime": "Oct 26, 2024 9:12 PM",
+    "dueDateTime": "2024-10-17T00:16:00",
     "customerName": "Gun Wilber"
   },
   {
@@ -332,7 +332,7 @@
     "status": "offer",
     "currentJob": "Review",
     "contentSize": 34,
-    "dueDateTime": "Oct 26, 2024 2:04 AM",
+    "dueDateTime": "2024-11-08T22:25:00",
     "customerName": "Andre Boyle"
   },
   {
@@ -340,7 +340,7 @@
     "status": "on hold",
     "currentJob": "Service",
     "contentSize": 62,
-    "dueDateTime": "Oct 9, 2024 12:11 PM",
+    "dueDateTime": "2024-10-17T00:16:00",
     "customerName": "Imogene Fissenden"
   },
   {
@@ -348,7 +348,7 @@
     "status": "assign",
     "currentJob": "Review",
     "contentSize": 23,
-    "dueDateTime": "Oct 26, 2024 12:30 PM",
+    "dueDateTime": "2024-10-17T00:16:00",
     "customerName": "Gilda Kentwell"
   },
   {
@@ -356,7 +356,7 @@
     "status": "offer",
     "currentJob": "Service",
     "contentSize": 50,
-    "dueDateTime": "Oct 8, 2024 3:42 PM",
+    "dueDateTime": "2024-11-08T22:25:00",
     "customerName": "Elisha Ludron"
   },
   {
@@ -364,7 +364,7 @@
     "status": "‭ in queue",
     "currentJob": "Review",
     "contentSize": 58,
-    "dueDateTime": "Oct 27, 2024 7:40 AM",
+    "dueDateTime": "2024-10-17T00:16:00",
     "customerName": "Dorian Iverson"
   },
   {
@@ -372,7 +372,7 @@
     "status": "offer",
     "currentJob": "Review",
     "contentSize": 25,
-    "dueDateTime": "Oct 12, 2024 4:14 PM",
+    "dueDateTime": "2024-10-17T00:16:00",
     "customerName": "Pepito Boyle"
   },
   {
@@ -380,7 +380,7 @@
     "status": "on hold",
     "currentJob": "Return",
     "contentSize": 9,
-    "dueDateTime": "Oct 27, 2024 4:38 PM",
+    "dueDateTime": "2024-10-08T22:25:00",
     "customerName": "Desdemona De Robertis"
   },
   {
@@ -388,7 +388,7 @@
     "status": "‭ in queue",
     "currentJob": "Review",
     "contentSize": 95,
-    "dueDateTime": "Oct 29, 2024 7:18 AM",
+    "dueDateTime": "2024-10-17T00:16:00",
     "customerName": "Imogene Balcon"
   },
   {
@@ -396,7 +396,7 @@
     "status": "on hold",
     "currentJob": "Service",
     "contentSize": 27,
-    "dueDateTime": "Nov 2, 2024 11:01 PM",
+    "dueDateTime": "2024-11-08T22:25:00",
     "customerName": "Trixy MacDowal"
   },
   {
@@ -404,7 +404,7 @@
     "status": "‭ in queue",
     "currentJob": "Return",
     "contentSize": 73,
-    "dueDateTime": "Oct 9, 2024 6:23 AM",
+    "dueDateTime": "2024-10-17T00:16:00",
     "customerName": "Tersina Kentwell"
   },
   {
@@ -412,7 +412,7 @@
     "status": "assign",
     "currentJob": "Review",
     "contentSize": 42,
-    "dueDateTime": "Oct 9, 2024 8:59 PM",
+    "dueDateTime": "2024-11-08T22:25:00",
     "customerName": "Lydie Guy"
   },
   {
@@ -420,7 +420,7 @@
     "status": "assign",
     "currentJob": "Service",
     "contentSize": 20,
-    "dueDateTime": "Nov 2, 2024 10:53 AM",
+    "dueDateTime": "2024-11-08T22:25:00",
     "customerName": "Charo Codner"
   },
   {
@@ -428,7 +428,7 @@
     "status": "on hold",
     "currentJob": "Review",
     "contentSize": 29,
-    "dueDateTime": "Oct 20, 2024 8:28 AM",
+    "dueDateTime": "2024-11-08T22:25:00",
     "customerName": "Andre Sleite"
   },
   {
@@ -436,7 +436,7 @@
     "status": "on hold",
     "currentJob": "Service",
     "contentSize": 2,
-    "dueDateTime": "Oct 25, 2024 5:02 AM",
+    "dueDateTime": "2024-10-08T22:25:00",
     "customerName": "Christoph Gisburn"
   },
   {
@@ -444,7 +444,7 @@
     "status": "on hold",
     "currentJob": "Review",
     "contentSize": 56,
-    "dueDateTime": "Oct 21, 2024 9:29 PM",
+    "dueDateTime": "2024-11-11T22:35:00",
     "customerName": "Doretta Keitley"
   },
   {
@@ -452,7 +452,7 @@
     "status": "offer",
     "currentJob": "Service",
     "contentSize": 15,
-    "dueDateTime": "Oct 27, 2024 4:39 AM",
+    "dueDateTime": "2024-10-17T00:16:00",
     "customerName": "Nevsa Ledger"
   },
   {
@@ -460,7 +460,7 @@
     "status": "offer",
     "currentJob": "Service",
     "contentSize": 26,
-    "dueDateTime": "Oct 19, 2024 10:35 AM",
+    "dueDateTime": "2024-10-17T00:16:00",
     "customerName": "Willey Boshers"
   },
   {
@@ -468,7 +468,7 @@
     "status": "on hold",
     "currentJob": "Review",
     "contentSize": 27,
-    "dueDateTime": "Oct 9, 2024 7:15 AM",
+    "dueDateTime": "2024-10-17T00:16:00",
     "customerName": "Dag Slides"
   },
   {
@@ -476,7 +476,7 @@
     "status": "offer",
     "currentJob": "Service",
     "contentSize": 75,
-    "dueDateTime": "Oct 8, 2024 7:32 PM",
+    "dueDateTime": "2024-10-17T00:16:00",
     "customerName": "Warden Wilber"
   }
 ]
