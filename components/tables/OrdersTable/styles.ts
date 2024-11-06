@@ -97,3 +97,13 @@ export const PageSizeSelect = styled.select`
   border: 1px solid ${({ theme }) => theme.colors.border};
   border-radius: 4px;
 `;
+
+export const NoDataRow = styled.tr`
+  text-align: center;
+  background-color: #f9f9f9;
+  td {
+    padding: 10px;
+    font-weight: bold;
+    color: #999;
+  }
+`;

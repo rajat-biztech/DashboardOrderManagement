@@ -15,7 +15,8 @@ import {
   PageSizeSelect,
   TableRow,
   TableHeading,
-  TableCellContent
+  TableCellContent,
+  NoDataRow
 } from "./styles";
 import { TableProps } from "./types";
 import getOrdersData from "@/services/Orders";
@@ -36,6 +37,7 @@ const Table = <T extends Record<string, string | number>>({
       }),
     placeholderData: keepPreviousData
   });
+
   const orders = data?.orders ?? [];
   const pageCount = Math.ceil((data?.total ?? 0) / pageSize);
 
@@ -78,20 +80,26 @@ const Table = <T extends Record<string, string | number>>({
           ))}
         </thead>
         <tbody>
-          {table.getRowModel().rows.map((row) => (
-            <TableRow key={row.id}>
-              {row.getVisibleCells().map((cell) => (
-                <td key={cell.id}>
-                  <TableCellContent>
-                    {flexRender(
-                      cell.column.columnDef.cell,
-                      cell.getContext()
-                    )}
-                  </TableCellContent>
-                </td>
-              ))}
-            </TableRow>
-          ))}
+          {orders.length === 0 ? (
+            <NoDataRow>
+              <td colSpan={columns.length}>No Data Found</td>
+            </NoDataRow>
+          ) : (
+            table.getRowModel().rows.map((row) => (
+              <TableRow key={row.id}>
+                {row.getVisibleCells().map((cell) => (
+                  <td key={cell.id}>
+                    <TableCellContent>
+                      {flexRender(
+                        cell.column.columnDef.cell,
+                        cell.getContext()
+                      )}
+                    </TableCellContent>
+                  </td>
+                ))}
+              </TableRow>
+            ))
+          )}
         </tbody>
       </StyledTable>
 
