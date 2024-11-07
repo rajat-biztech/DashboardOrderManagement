@@ -28,7 +28,7 @@ const Table = ({ columns }: TableProps) => {
   const [pageIndex, setPageIndex] = useState(DEFAULT_PAGE_INDEX);
   const [pageSize, setPageSize] = useState(DEFAULT_PAGE_SIZE);
 
-  const { data = {}, isFetching } = useQuery({
+  const { data = {}, isLoading } = useQuery({
     queryKey: ["orders", pageIndex, pageSize],
     queryFn: () =>
       getOrdersData({
@@ -60,7 +60,7 @@ const Table = ({ columns }: TableProps) => {
 
   return (
     <TableContainer>
-      {isFetching ? (
+      {isLoading ? (
         <TableSkeleton rows={pageSize} columns={6} />
       ) : (
         <>

@@ -5,8 +5,8 @@ export enum JobType {
 }
 
 export enum OrderStatus {
-  InQueue = "in queue",
-  OnHold = "on hold",
-  Offer = "offer",
-  Assign = "assign"
+  InQueue = "In Queue",
+  OnHold = "On Hold",
+  Offer = "Offer",
+  Assign = "Assign"
 }
