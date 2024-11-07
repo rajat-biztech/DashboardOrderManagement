@@ -1,7 +1,10 @@
 import data from "@/data/ordersData.json";
 import { NextApiRequest, NextApiResponse } from "next";
 
-const fetchOrders = (req: NextApiRequest, res: NextApiResponse) => {
+const fetchOrders = async (
+  req: NextApiRequest,
+  res: NextApiResponse
+) => {
   const { pageIndex, pageSize } = req.query;
 
   // Ensure that pageIndex and pageSize are valid numbers
@@ -12,6 +15,9 @@ const fetchOrders = (req: NextApiRequest, res: NextApiResponse) => {
   const startIndex = (pageIndexNum - 1) * pageSizeNum;
   const endIndex = startIndex + pageSizeNum;
   const paginatedOrders = data.slice(startIndex, endIndex);
+
+  // To display a loading skeleton since the JSON data is fetched quickly without any loading indication.
+  await new Promise((resolve) => setTimeout(resolve, 200));
 
   return res.status(200).json({
     orders: paginatedOrders,

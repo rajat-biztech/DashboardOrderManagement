@@ -10,7 +10,6 @@ export interface Order {
   status: OrderStatus;
 }
 
-export type TableProps<T extends Record<string, string | number>> = {
-  data: T[];
-  columns: ColumnDef<T>[];
+export type TableProps = {
+  columns: ColumnDef<Order>[];
 };

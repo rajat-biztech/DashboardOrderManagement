@@ -1,17 +1,17 @@
 export const theme = {
   colors: {
-    primary: "#3498db", // Blue
-    secondary: "#2ecc71", // Green
-    accent: "#f39c12", // Yellow
-    background: "#f4f4f4", // Light gray
-    textPrimary: "#2c3e50", // Dark gray text
-    textSecondary: "#7f8c8d", // Light gray text
-    border: "#e1e1e1", // Border color
-    success: "#27ae60", // Green success
-    warning: "#f39c12", // Yellow warning
-    error: "#e74c3c", // Red error
-    link: "#2980b9", // Blue link
-    hover: "#ecf0f1", // Light gray hover
-    shadow: "rgba(0, 0, 0, 0.1)" // Subtle shadow
+    primary: "#4a90e2",
+    secondary: "#50c878",
+    accent: "#f7b500",
+    background: "#f9fafb",
+    textPrimary: "#333d47",
+    textSecondary: "#5b6670",
+    border: "#d1d5db",
+    success: "#28a745",
+    warning: "#ffc107",
+    error: "#dc3545",
+    link: "#0366d6",
+    hover: "#e6f7ff",
+    shadow: "rgba(0, 0, 0, 0.05)"
   }
 };
