@@ -1,4 +1,4 @@
-import OrderTable from "@/components/tables/OrdersTable";
+import OrderTable from "@/components/OrdersTable";
 
 const OrdersPage = () => {
   return <OrderTable />;
